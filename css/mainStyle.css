@@ -1,0 +1,434 @@
+
+@media only screen and (max-width: 992px) and (min-width: 320px){
+.footer-link{
+  	background:#f6f7f9 url('../images/07c-Worldmap-tablet.png') no-repeat 0px 10px/100% auto;
+  }
+}
+#start-grey>section:nth-child(2n),
+#start-grey>section.hide:nth-child(2n)+section{
+  background-color: #fff;
+}
+#start-grey>section:nth-child(2n+1),
+#start-grey>section.hide:nth-child(2n+1)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n),
+#start-white>section.hide:nth-child(2n)+section{
+  background-color: #f5f6f8;
+}
+#start-white>section:nth-child(2n+1),
+#start-white>section.hide:nth-child(2n+1)+section{
+  background-color: #fff;
+}
+
+#start-grey #logixalLocation,
+#start-white #logixalLocation,
+#logixalLocation{
+  background-color:#f5f6f8;
+}
+
+ul.icon-gallery{
+	padding:20px 0;
+}
+ul.icon-gallery li,
+ul.lines-of-business li{
+	list-style:none;
+	margin:10px 0;
+}
+ul.icon-gallery li > a{
+	display:block;
+	border:1px solid #d3d3d3;
+	background:#fff url('../images/icons_kd/icon_bubble.png') no-repeat center top/auto auto;
+	height:145px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
+ul.icon-gallery li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	//background:#ededed;
+	min-height:45px;
+	font-size:14px;
+}
+ul.icon-gallery li > a.lock{
+	background-image:url('../images/icons_kd/icon_lock.png')
+}
+ul.icon-gallery li > a.mobile.kd-ico{
+	/*background-image:url('../images/icons_kd/icon_mobile.png');*/
+	background:#fff url('../images/icons_kd/icon_mobile.png') no-repeat left 55% top/auto auto;
+}
+ul.icon-gallery li > a.oracle{
+	background-image:url('../images/icons_kd/logo_oracle.png')
+}
+ul.icon-gallery li > a.payment{
+	background-image:url('../images/icons_kd/icon_card_tick.png')
+}
+ul.icon-gallery li > a.graph{
+	background-image:url('../images/icons_kd/icon_graph.png')
+}
+ul.icon-gallery li > a.cart{
+	background-image:url('../images/icons_kd/icon_cart.png')
+}
+ul.icon-gallery li > a.comego{
+	background-image:url('../images/icons_kd/icon_come_go.png')
+}
+ul#kiko.lines-of-business li > a{
+	max-width:250px;
+}
+ul.lines-of-business li > a{
+	display:block;
+	border:none;
+	background:#fff url('../images/icons_kd/lob/02a.jpg') no-repeat left top/100% auto;
+	min-height:190px;
+	text-decoration:none;
+	position:relative;
+	color:#000;
+}
+ul.lines-of-business li > a span{
+	position:absolute;
+	width:50%;
+	left:25%;
+	bottom:5px;
+	line-height:20px;
+	text-align:center;
+	min-height:45px;
+	font-size:14px;
+	color:#000;
+}
+ul.lines-of-business li > a+.overlay-lob{
+	transition: .8s ease;
+    width: 90%;
+    margin: 0 5%;
+	max-width:250px;
+}
+ul.lines-of-business li:hover > a+.overlay-lob{
+	height: 100%;
+
+}
+ul.lines-of-business li > a span{
+	width:80%;
+	left:10%;
+}
+ul.lines-of-business li > a.lob1{
+	background-image:url('../images/icons_kd/lob/02a.jpg')
+}
+ul.lines-of-business li > a.lob2{
+	background-image:url('../images/icons_kd/lob/02b.jpg')
+}
+ul.lines-of-business li > a.lob3{
+	background-image:url('../images/icons_kd/lob/02c.jpg')
+}
+ul.lines-of-business li > a.lob4{
+	background-image:url('../images/icons_kd/lob/02d.jpg')
+}
+.white-text,
+.text-accel-widget a.white-text{
+	color:#fff;
+}
+
+#cust-logo .customer-img{
+	background-color:#fff;
+}
+
+
+.btn-view-more{
+	background-color:#c43537;
+	color:#fff;
+}
+.btn-view-more.up{
+	background:#c43537 url('../images/up-arrow.png') no-repeat right 27% center/auto auto;
+}
+.btn-view-more{
+	background:#c43537 url('../images/down-arrow.png') no-repeat right 27% center/auto auto;
+}
+.btn-view-more .btn-text{
+	margin: 0 0 0 -14px;
+}
+.borderBottom{
+	border-bottom: 1px solid #d0d0d0
+}
+.dropdown-submenu .caret{
+	width:8px;
+	height:4px;
+}
+#kd-fix-7{
+	 border-bottom: 1px solid #d0d0d0;
+}
+
+.abg-wrapper{
+	background:url('../images/01a-Bis-Goal.png') no-repeat top 5px left 5px/auto auto;
+	min-height:80px;
+	padding:0 0 0 50px
+}
+.abg-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.abg2{background-image:url('../images/01b-Bis-Goal.png');}
+.abg3{background-image:url('../images/01c-Bis-Goal.png');}
+.abg4{background-image:url('../images/01d-Bis-Goal.png');}
+.abg5{background-image:url('../images/01e-Bis-Goal.png');}
+
+/************ Digital Banking Solutions Page: How we define ourselves in banking ************/
+.defban{
+	padding-bottom:20px;
+}
+.defban-wrapper{
+	background:url('../images/03a-oracle-goldpartner.png') no-repeat top 3px left 5px/auto auto;
+	min-height:80px;
+	padding:0 0 0 64px
+}
+.defban-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.defban2{background-image:url('../images/03c-onbudget.png');}
+.defban3{background-image:url('../images/03b-OBDX.PNG');}
+.defban4{background-image:url('../images/03d-partners.png');}
+
+/************ Digital Banking Solutions Page: Our Range of services in banking ************/
+.ors-wrapper{
+	background:url('../images/01i-TechnoFunctional.png') no-repeat top 0px left 0px/77px auto;
+	min-height:80px;
+	padding:0 0 0 64px
+}
+.ors-wrapper p{
+	padding: 2rem 0 0 40px;
+}
+.ors2{
+	background:url('../images/01g-Expertise.png') no-repeat top 20px left 0px/90px auto;
+}
+.ors3{background-image:url('../images/01f-Expertise.png');}
+.ors4{background-image:url('../images/01b-Expertise.png');}
+.ors5{background-image:url('../images/01d-Expertise.png');}
+
+
+/*#index-about-us{
+	position:relative;
+	display:block;
+}
+#index-about-us .row{
+	margin:0;
+}
+#index-about-us a{
+	display:block;
+	max-width:100%;
+	margin:0;
+	padding:0;
+}
+#index-about-us a > img{
+	max-width:100%;
+}
+#index-about-us div[class^="col"]{
+	//background:#ff0000;
+	padding:0;
+	margin:0;
+	float:none;
+	display:inline;
+	width:50%;
+}*/
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+		#prime-address{
+			width:50%;
+		}
+    }
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+		.kd-fix{display:none;}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		#cust-logo .customer-img{
+			width:46%;
+			margin: 0 0 0 3%;
+			display:inline;
+		}
+		#collapseCustomers{
+			margin:-13px 0;
+		}
+		.text-center-767{
+			text-align:center;
+		}
+		p.kd-p-1{
+			padding-right:15px;
+			margin:0;
+		}
+		.no-mar{
+			margin-bottom:0;
+		}
+		#brandings .container-img > img{
+			border:1px solid #d3d3d3;
+		}
+
+    }
+	@media only screen and (max-width : 767px){
+		#DestoBrand{
+			display:none;
+		}
+		#MobiBrand{
+			display:block;
+		}
+		#MobiBrand > div{
+			margin:10px 0;
+		}
+		#MobiBrand a{
+			width:100%;
+		}
+		#MobiBrand a img{
+			width:100%;
+			height:auto;
+		}
+	}
+	@media only screen and (min-width : 768px){
+		#DestoBrand{
+			display:block;
+		}
+		#MobiBrand{
+			display:none;
+		}
+	}
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+		ul.icon-gallery li > a span{
+			width:80%;
+			left:10%;
+		}
+		#cust-logo .customer-img{
+			width:100%;
+			margin:10px 0 10px 0%;
+		}
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+		ul.icon-gallery li{width:50%;}
+    }
+
+	/*@media only screen and (min-width : 419px) and (max-width : 570px)*/
+	@media only screen and (max-width : 570px){
+		#brandings .container-img{
+			width:50%;
+			height:auto;
+			/*background:#00ff00;*/
+		}
+		
+	}
+	@media only screen and (min-width : 567px)and (max-width:992px){
+		p.hidden-sm.hidden-md,
+		span.hidden-sm.hidden-md,
+		span.kd-fix-2{
+			display:none;
+		}
+	}
+	@media only screen and (min-width : 567px)and (max-width:764px){
+		#cust-logo img.customer-img {
+			width: 40%;
+			margin: 0 0 0 5%;
+		}
+		#cust-logo .panel-body img.customer-img {
+			margin: 0 0 16px 5%;
+		}
+		#collapseCustomers{
+			width:100%;
+			margin:5px 0 5px 0;
+		}
+		.panel-heading, .panel-body{
+			width:100%;
+		}
+		.kd-fix-4.btn-custom{
+			width:40%;
+			margin:0 6% 0 0;
+		}
+	}
+	@media only screen and (max-width: 567px){
+		p.kd-fix-6{
+			padding-right:8px;
+		}
+	}
+	
+/** Fixing Footer ***/
+@media only screen and (max-width: 1199px) and (min-width: 993px){
+.tab-address {
+    float: none !important;
+    width:100%;
+}
+.row.asia-pacific-logixal .kd-fix-3{
+	margin-right: 5px;
+	min-width:33%;
+}
+}
+@media only screen and (max-width: 767px) and (min-width: 320px){
+	p.text-center-tablet,
+	#resources-page p,
+	#resources-page h3{
+		text-align:center;
+	}
+}
+@media only screen and (min-width:320px) and (max-width:450px){
+	.card-success-stories.border-team .card-text{
+		font-size:14px!important;
+	}
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.overlay-lob p{
+		font-size:12px;
+	}
+	.overlay-lob p.font16 {
+		font-size:14px;
+	}
+}
+@media only screen and (min-width:640px) and (max-width:991px){
+	#collapseSix{
+		width:96%;
+	}
+	#collapseSix .panel-body{
+		width:100%;
+	}
+	.kd-fix-5{
+		width:40%;
+		min-width:270px;
+		display: inline-block;
+		margin: 0 5% 0 0;
+	}
+}
