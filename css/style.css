@@ -440,6 +440,10 @@ h5 {
 
 /* Custom Classes Logixal */
 
+a.pdf-links {
+    color: #100e0e !important;
+}
+
 /*Digital Commerce Page */
 
 .column-2 {
@@ -921,7 +925,7 @@ p.address-logixal {
   float: right;
   margin-top: -10.2em;
   padding-left: 8px;
-  margin-right: -14em;
+  margin-right: -13em;
   font-size: 14px;
 }
 
@@ -1510,6 +1514,10 @@ a.breadcrumb-item {
     line-height: 2;
   }
   /*Custom Classes for Mobile */
+ 
+ a.pdf-links {
+    color: #100e0e !important;
+} 
   .mt16, .mt14 {
     margin-top: 6px;
   }
@@ -1934,6 +1942,13 @@ a.breadcrumb-item {
     font-size: 18px !important;
   }
   /*Custom classes for 640px*/
+ 
+ 
+  
+ a.pdf-links {
+    color: #100e0e !important;
+}
+ 
   .mt-range {
     margin-top: 5%;
   }
